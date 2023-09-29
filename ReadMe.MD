@@ -16,7 +16,13 @@
 
 - ```sudo dpkg -i trivy_0.18.3_Linux-64bit.deb```
 
+2. Install Copa CLI
 
+- ```wget https://github.com/project-copacetic/copacetic/releases/download/v0.4.1/copa_0.4.1_linux_amd64.tar.gz```
+
+- ```tar -xvf copa_0.4.1_linux_amd64.tar.gz```
+
+- ```sudo mv copa /usr/local/bin```
 
 ### Test
 
