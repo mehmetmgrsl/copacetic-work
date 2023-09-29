@@ -12,9 +12,9 @@
 
 1. Install Trivy
 
-- ```wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.3_Linux-64bit.deb```
+- ```wget https://github.com/aquasecurity/trivy/releases/download/v0.45.1/trivy_0.45.1_Linux-64bit.deb```
 
-- ```sudo dpkg -i trivy_0.18.3_Linux-64bit.deb```
+- ```sudo dpkg -i trivy_0.45.1_Linux-64bit.deb```
 
 2. Install Copa CLI
 
@@ -25,6 +25,7 @@
 - ```sudo mv copa /usr/local/bin```
 
 ### Test
+
 
 
 
