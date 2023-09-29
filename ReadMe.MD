@@ -24,12 +24,23 @@
 
 - ```sudo mv copa /usr/local/bin```
 
-### Test
+### Test (2*)
 
+- ```docker pull nginx:1.21.6```
+
+- ```trivy image --vuln-type os --ignore-unfixed nginx:1.21.6```
+
+   - ![nginx-1-21-6-vulnerabilities](nginx-1-21-6-vulnerabilities.png)
+
+- ```trivy image --vuln-type os --ignore-unfixed nginx:1.21.6 -f json -o nginx.1.21.6.json```   
 
 
 
 ### Resources
-1. https://github.com/project-copacetic/copacetic
-2. [Copacetic - Patch Your Container Images Seamlessly with COPA](https://www.youtube.com/watch?v=kDkBHV-V_3s)
-3. https://github.com/aquasecurity/trivy
+1* https://github.com/project-copacetic/copacetic
+
+2* [Copacetic - Patch Your Container Images Seamlessly with COPA](https://www.youtube.com/watch?v=kDkBHV-V_3s)
+
+3* https://github.com/aquasecurity/trivy
+
+4* https://project-copacetic.github.io/copacetic/website/quick-start
