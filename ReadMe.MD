@@ -6,6 +6,8 @@
 
 ### How?
 
+![Copacetic](copacetic-how.png)
+
 ### Installation
 
 
@@ -16,3 +18,4 @@
 ### Resources
 1. https://github.com/project-copacetic/copacetic
 2. [Copacetic - Patch Your Container Images Seamlessly with COPA](https://www.youtube.com/watch?v=kDkBHV-V_3s)
+3. https://github.com/aquasecurity/trivy
