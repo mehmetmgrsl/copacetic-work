@@ -1,5 +1,3 @@
-# WIP
-
 ### Why?
 
 - Copa is essential to rapidly patch container images, ensuring security, reducing costs, and simplifying the patching process in a fast-paced operational environment.
@@ -34,6 +32,13 @@
 
 - ```trivy image --vuln-type os --ignore-unfixed nginx:1.21.6 -f json -o nginx.1.21.6.json```   
 
+- ```docker buildx create --name demo```
+
+- ```copa patch -i  docker.io/library/nginx:1.21.6 -r nginx.1.21.6.json -t 1.21.6-patched --addr buildx://demo```
+
+- ```trivy image --vuln-type os --ignore-unfixed nginx:1.21.6-patched```
+
+  - ![nginx-1-21-6-patched](nginx-1-21-6-patched.png) 
 
 
 ### Resources
